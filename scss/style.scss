@@ -113,13 +113,14 @@ body {
         margin: auto;
         background-color: #332D2D;
         padding-top: 40px;
+        
         .portfolio-titulo{
             color: white;
             text-align: center;
             padding-bottom: 40px;
             font-weight: 300;
         }
-        .container-herramientas{
+        .container{
 
             display: flex;
             
@@ -127,33 +128,167 @@ body {
             justify-content: center;
             align-items: center;
             padding: 10px;
-           
-            .item{
+           .carrousel{
+            .container-item-carrousel{
+                display: flex;
+                .item{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    
+                    margin-bottom: 20px;
+                   
+    
+                    img{
+                        width: 40%;
+                       
+                    }
+                    .item-p{
+                        margin-top: 10px;
+                        color: white;
+                        font-weight: 500;
+                        text-align: center;
+                    }
+    
+                }
+            }
+           }
+            
+
+            
+            
+
+
+            .proyectos{
+                margin-top: 80px;
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
-                width: 33.3%;
-                margin-bottom: 20px;
-               
+                width: 100%;
+                .item{
+                   width: 100%;
+                    margin-bottom: 40px;
 
-                img{
-                    width: 40%;
-                   
-                }
-                .item-p{
-                    margin-top: 10px;
-                    color: white;
-                    font-weight: 500;
-                    text-align: center;
-                }
+                    
+                   .card{
+                    margin: auto;
+                    border-radius: 20px;
+                       display: flex;
+                       justify-content: center;
+                       align-items: center;
+                       flex-direction: column;
+                        padding: 5px;
+                       img{
+                           width: 100%;
+                       }
 
+                       .card-body{
+                           display: flex;
+                           justify-content: center;
+                           align-items: center;
+                           flex-direction: column;
+
+                           .btn{
+                               background-color: #f82f2f;
+                               color: white;
+                               font-weight: 500;
+                           }
+                       }
+
+                       
+                   }
+                }
             }
-
-            
-
-
         }
         
+    }
+
+    .contacto{
+        width: 100%;
+        background-color: #201E1E;
+        margin-bottom: 100px;
+
+        .encastre{
+            height: 100px;
+            width: 90%;
+            margin: auto;
+            background-color: #332D2D;
+        }
+        h4{
+            padding-top: 50px;
+            text-align: center;
+            color: white;
+            font-size: 35px;
+            font-weight: 300;
+        }
+        .form{
+            padding-top: 50px;
+            width: 80%;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: left;
+            justify-content: center;
+
+            .nombre{
+                background-color: #565656;
+                color: white;
+                padding: 10px;
+                border: none;
+                outline: none;
+                font-size: 20px;
+
+                border-radius: 5px;
+
+                margin-bottom: 10px;
+            }
+            .nombre::placeholder,
+            .correo::placeholder,
+            .mensaje::placeholder{
+                color: rgb(212, 212, 212);
+            }
+
+            .correo{
+                background-color: #565656;
+                color: white;
+                padding: 10px;
+                border: none;
+                outline: none;
+                font-size: 20px;
+
+                border-radius: 5px;
+                margin-bottom: 10px;
+            }
+
+            .mensaje{
+                background-color: #565656;
+                color: white;
+                padding: 10px;
+                border: none;
+                outline: none;
+                font-size: 20px;
+
+                border-radius: 5px;
+                margin-bottom: 10px;
+            }
+
+            .btn-submit{
+                width: 40%;
+                margin: auto;
+                border: none;
+                border-radius: 5px;
+                font-size: 20px;
+                margin-bottom: 30px;
+                padding: 5px;
+                background-color: #f82f2f;
+            }
+        }
+    }
+
+    .header-cel{
+        width: 100%;
+        back
     }
 }
