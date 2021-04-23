@@ -16,7 +16,7 @@
 </head>
 
 <body>
-    <div class="fondo">
+    <div class="fondo" id='inicio'>
 
         <div class="nombre">
             <h2 class="nombre-h2">
@@ -38,7 +38,7 @@
                         Soy de San Francisco Córdoba. Estudio en la Escuela Experimental ProA Técnica. Aprendo a diseñar
                         y desarrollar sitios web.
                     </p>
-                    <a href="" class="presentacion-btn">
+                    <a href="" class="presentacion-btn" id='verMas'>
                         Ver más
                     </a>
                 </div>
@@ -49,7 +49,7 @@
     </div>
 
 
-    <section class="portfolio">
+    <section class="portfolio" id='portfolio'>
         <h1 class="portfolio-titulo">
             PORTFOLIO
         </h1>
@@ -177,7 +177,7 @@
                             <div class="card-body">
                                 <h5 class="card-title">Café Tobias Possetto</h5>
                                 <p class="card-text">Una página web para un bar/restobar.</p>
-                                <a href="#" class="btn ">Ver repositorio</a>
+                                <a href="https://github.com/tobiaspossetto/confiteria" target="_blank" class="btn ">Ver repositorio</a>
                             </div>
                         </div>
                     </div>
@@ -189,7 +189,7 @@
                             <div class="card-body">
                                 <h5 class="card-title">Hola Mundo Bootstrap</h5>
                                 <p class="card-text">Página rapida que hice para probar Bootstrap.</p>
-                                <a href="#" class="btn ">Ver repositorio</a>
+                                <a href="https://github.com/tobiaspossetto/bootstrap" target="_blank" class="btn ">Ver repositorio</a>
                             </div>
                         </div>
                     </div>
@@ -202,7 +202,7 @@
                                 <h5 class="card-title">Pizza Club</h5>
                                 <p class="card-text">Sitio Web para un restaurante especializado en las pizzas
                                     americanas e italianas.</p>
-                                <a href="#" class="btn ">Ver repositorio</a>
+                                <a href="https://github.com/tobiaspossetto/PizzaClub-CoderHouse" target="_blank" class="btn ">Ver repositorio</a>
                             </div>
                         </div>
                     </div>
@@ -214,7 +214,7 @@
                                 <h5 class="card-title">Notas App</h5>
                                 <p class="card-text">Aplicación web para guardar notas en la base de datos de Firebase
                                     Google.</p>
-                                <a href="#" class="btn ">Ver repositorio</a>
+                                <a href="https://github.com/tobiaspossetto/Notas-App" target="_blank" class="btn ">Ver repositorio</a>
                             </div>
                         </div>
                     </div>
@@ -229,7 +229,7 @@
 
     
 
-    <section class="contacto">
+    <section class="contacto" id='contacto'>
         <div class="encastre">
 
         </div>
@@ -238,23 +238,31 @@
 
             <input type="text" class="nombre" placeholder="Nombre:">
             <input type="email" class="correo" placeholder="Correo:">
-            <textarea class='mensaje' name="" id="" cols="30" rows="10" placeholder="Mensaje:"></textarea>
+            <textarea class='mensaje' name="" id="" cols="30" rows="4" placeholder="Mensaje:"></textarea>
 
             <input type="submit"  class=' btn-submit btn-danger' value="Enviar">
         </form>
     </section>
 
 
+    <div class="fondoDeHeader">
 
-    <header class="header-cel">
-        <nav class="nav">
-            <ul class="ul">
-                <li class="li"><a href="" class="btn-nav">Inicio</a></li>
-                <li class="li"><a href="" class="btn-nav">Portfolio</a></li>
-                <li class="li"><a href="" class="btn-nav">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
+        <header class="header-cel">
+            <nav class="nav">
+                <ul class="ul">
+                    <li class="li"><a href="" class="btn" id='iniciobtn'>Inicio</a></li>
+                    <li class="li"><a href="" class="btn" id='portfoliobtn'>Portfolio</a></li>
+                    <li class="li"><a href="" class="btn  " id='contactobtn'>Contacto</a></li>
+                </ul>
+            </nav>  
+
+           
+            <div class="info">
+                <p>Tobias Possetto 2021</p>
+            </div>
+        </header>
+    </div>
+    
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
@@ -262,6 +270,11 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous">
     </script>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <script src="app.js"></script>
 </body>
 
 </html>

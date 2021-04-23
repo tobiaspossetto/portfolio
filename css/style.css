@@ -99,7 +99,7 @@ body .portfolio {
           font-weight: 500;
           text-align: center; }
     body .portfolio .container .proyectos {
-      margin-top: 80px;
+      margin-top: 40px;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -130,10 +130,9 @@ body .portfolio {
 
 body .contacto {
   width: 100%;
-  background-color: #201E1E;
-  margin-bottom: 100px; }
+  background-color: #201E1E; }
   body .contacto .encastre {
-    height: 100px;
+    height: 50px;
     width: 90%;
     margin: auto;
     background-color: #332D2D; }
@@ -188,6 +187,52 @@ body .contacto {
       border: none;
       border-radius: 5px;
       font-size: 20px;
-      margin-bottom: 30px;
+      margin-bottom: 120px;
       padding: 5px;
       background-color: #f82f2f; }
+
+body .fondoDeHeader {
+  background-color: #201E1E; }
+  body .fondoDeHeader .header-cel {
+    position: fixed;
+    z-index: 100;
+    bottom: 0;
+    width: 100%;
+    background-color: #332D2D;
+    height: 90px;
+    border-radius: 20px 20px 0px 0px; }
+    body .fondoDeHeader .header-cel .nav {
+      width: 100%;
+      height: 50px;
+      margin-bottom: 10px;
+      border-bottom: 0.5px solid #464646; }
+      body .fondoDeHeader .header-cel .nav .ul {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin: 0; }
+        body .fondoDeHeader .header-cel .nav .ul .li {
+          height: 100%;
+          list-style: none;
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+          body .fondoDeHeader .header-cel .nav .ul .li .btn {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            text-decoration: none;
+            color: white;
+            text-align: center; }
+          body .fondoDeHeader .header-cel .nav .ul .li .btn:hover {
+            background-color: #f82f2f; }
+    body .fondoDeHeader .header-cel .info {
+      height: 30px;
+      text-align: center; }
+      body .fondoDeHeader .header-cel .info p {
+        text-align: center;
+        margin: 0;
+        color: white; }
